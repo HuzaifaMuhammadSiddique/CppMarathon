@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    double temp;
+    cin >> temp;
+    
+    float new_temp = (9.0 / 5) * temp + 32;
+    
+    cout << temp << " celcius is equal to " << new_temp << " fahrenheit.";
+}
