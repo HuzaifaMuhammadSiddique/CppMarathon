@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    double radius, length;
+    const double PI = 3.142;
+    
+    cout << "Enter radius of cylinder: ";
+    cin >> radius;
+    
+    cout << "Enter length of cylinder: ";
+    cin >> length;
+    
+    double area = radius * radius * PI;
+    double volume = area * length;
+    
+    cout << "The volume of the cylinder is " << volume;
+    
+    
+}
